@@ -1,4 +1,5 @@
 'use strict';
+// <    >  =>
 
 const botonesEmail = document.querySelectorAll('[data-action="abrir-ventana-correo"]');
 const ventanaCorreo = document.getElementById('ventana-correo');
@@ -24,8 +25,6 @@ ventanaCorreo.querySelector('.ventana__overlay').addEventListener('click', (e) =
 	}
 });
 
-// <    >  =>
-
 const galeria = document.getElementById('trabajos');
 const observador = new IntersectionObserver((entries) => {
     if(entries[0].isIntersecting) {
@@ -49,39 +48,39 @@ const ventanaTrabajos = document.getElementById('ventana-trabajos');
 const datos = [
 	{
 		id: '1',
-		titulo: 'Trabajo #1',
-		texto: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quis, veniam eius nesciunt ex enim delectus, nobis perferendis ut minima optio id earum consectetur repellat ea natus qui, aliquid totam?',
-		fecha: '1 de Enero de 2023',
+		titulo: 'Galeria de fotos',
+		texto: 'Esta es una galería interactiva desarrollada con JavaScript Vanilla que ofrece una experiencia envolvente para explorar mis viajes alrededor del mundo. Con una interfaz elegante y minimalista, los usuarios pueden navegar por diferentes categorías de imágenes organizadas por continentes, accediendo a fotografías de lugares emblemáticos.',
+		fecha: '20 de febrero de 2023',
 	},
 	{
 		id: '2',
-		titulo: 'Trabajo #2',
-		texto: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quis, veniam eius nesciunt ex enim delectus, nobis perferendis ut minima optio id earum consectetur repellat ea natus qui, aliquid totam?',
-		fecha: '1 de Enero de 2023',
+		titulo: 'App de peliculas',
+		texto: 'Esta aplicación te ofrece una experiencia completa para descubrir películas de acuerdo a tus gustos y preferencias. Con un diseño moderno, intuitivo y fácil de navegar, podrás explorar una amplia variedad de títulos organizados por género, año de lanzamiento y tipo de contenido (películas o series).',
+		fecha: '10 de Junio de 2024',
 	},
 	{
 		id: '3',
-		titulo: 'Trabajo #3',
-		texto: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quis, veniam eius nesciunt ex enim delectus, nobis perferendis ut minima optio id earum consectetur repellat ea natus qui, aliquid totam?',
-		fecha: '1 de Enero de 2023',
+		titulo: 'Formulario interactivo',
+		texto: 'Este formulario te permite realizar transferencias de dinero de manera rápida y segura, siguiendo un proceso guiado paso a paso. Su diseño moderno y minimalista facilita la navegación, asegurando que cada usuario pueda completar su transacción sin complicaciones.',
+		fecha: '22 de Noviembre de 2024',
 	},
 	{
 		id: '4',
-		titulo: 'Trabajo #4',
-		texto: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quis, veniam eius nesciunt ex enim delectus, nobis perferendis ut minima optio id earum consectetur repellat ea natus qui, aliquid totam?',
-		fecha: '1 de Enero de 2023',
+		titulo: 'Web de marketing',
+		texto: 'SEOMX es una agencia innovadora especializada en estrategias de SEO y marketing digital, diseñada para potenciar la visibilidad online de empresas y emprendedores. Con un enfoque creativo y basado en datos, ofrecemos soluciones personalizadas que maximizan el impacto de cada negocio en el mundo digital.',
+		fecha: '3 de Marzo de 2024',
 	},
 	{
 		id: '5',
-		titulo: 'Trabajo #5',
-		texto: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quis, veniam eius nesciunt ex enim delectus, nobis perferendis ut minima optio id earum consectetur repellat ea natus qui, aliquid totam?',
-		fecha: '1 de Enero de 2023',
+		titulo: 'Tienda interactiva',
+		texto: 'Es una plataforma moderna y dinámica donde los amantes de los tenis pueden explorar, personalizar y comprar su par ideal con una experiencia interactiva y fluida. Diseñada con JavaScript Vanilla, esta tienda en línea ofrece una interfaz intuitiva y atractiva, optimizada para una navegación rápida y sin distracciones.',
+		fecha: '26 de Julio de 2023',
 	},
 	{
 		id: '6',
-		titulo: 'Trabajo #6',
-		texto: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quis, veniam eius nesciunt ex enim delectus, nobis perferendis ut minima optio id earum consectetur repellat ea natus qui, aliquid totam?',
-		fecha: '1 de Enero de 2023',
+		titulo: 'Landing page | Coffe',
+		texto: 'La landing page interactiva donde el café cobra vida. Diseñada con un estilo moderno y minimalista, esta plataforma ofrece una experiencia envolvente para los amantes del café.',
+		fecha: '22 de Noviembre de 2024',
 	},
 ];
 
